@@ -30,7 +30,7 @@ final class AdminMenu
 			'Settings',
 			'manage_options',
 			'displayConfigPage',
-			array(__CLASS__, 'displayPageSettings'),
+			array(static::class, 'displayPageSettings'),
 		);
 	}
 
