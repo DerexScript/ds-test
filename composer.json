@@ -1,0 +1,23 @@
+{
+  "name": "derex/ds-test",
+  "description": "a plguin ds-tes",
+  "type": "project",
+  "require-dev": {
+    "giacocorsiglia/wordpress-stubs": "^5.1.1",
+    "paulthewalton/acf-stubs": "^5.8.7"
+  },
+  "license": "GPL",
+  "authors": [
+    {
+      "name": "derex",
+      "email": "derex@outlook.com.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DST\\Includes\\": "includes/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {}
+}
